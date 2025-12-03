@@ -1,9 +1,9 @@
-# 📦 Sistema de Gestão de Estoque - Trabalho N3
+# Sistema de Gestão de Estoque - Trabalho N3
 
 Este projeto é uma aplicação Full Stack desenvolvida pelos alunos **MArcos Vinicius** e **Yan Carlos** para as disciplinas de **Banco de Dados** e **Server-Side**. 
 O sistema realiza o controle de estoque de produtos com automação de pedidos de reposição via Banco de Dados.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Front-end:** HTML5, CSS3, JavaScript (Fetch API).
 * **Back-end:** Node.js (Express).
@@ -12,7 +12,7 @@ O sistema realiza o controle de estoque de produtos com automação de pedidos d
 * **Recursos de BD:** Triggers, Stored Procedures e Views.
 
 
-## 🚀 Passo a Passo para Rodar o Projeto
+## Passo a Passo para Rodar o Projeto
 
 para configurar e executar o sistema
 
@@ -54,7 +54,7 @@ package.json: Lista de dependências do Node.
 README.md: Este arquivo de instruções.
 
 
-### 📜 Script SQL do Banco de Dados
+### Script SQL do Banco de Dados
 Copie o código abaixo e execute no seu Shell do MariaDB/MySQL:
 
 <details>
