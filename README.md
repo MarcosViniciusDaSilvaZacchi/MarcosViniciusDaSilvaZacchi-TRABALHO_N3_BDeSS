@@ -120,13 +120,15 @@ END //
 DELIMITER ;
 
 -- 5. Views (Relatórios)
-CREATE OR REPLACE VIEW v_relatorio_pedidos AS
+
+-- Alterado de 'CREATE OR REPLACE' para apenas 'CREATE' conforme solicitação
+CREATE VIEW v_relatorio_pedidos AS
 SELECT ped.num_pedido, prod.nome_produto, cat.nome_categoria, ped.qtde_pedido, ped.data_pedido
 FROM Pedido ped
 INNER JOIN Produto prod ON ped.cod_produto = prod.cod_produto
 INNER JOIN Categoria cat ON prod.id_categoria = cat.id_categoria;
 
-CREATE OR REPLACE VIEW v_estoque_critico AS
+CREATE VIEW v_estoque_critico AS
 SELECT p.nome_produto, p.qtde_produto, c.nome_categoria
 FROM Produto p
 INNER JOIN Categoria c ON p.id_categoria = c.id_categoria
